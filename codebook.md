@@ -1,7 +1,7 @@
 
-#Codebook
+# Codebook
 
-###Processing
+### Processing
 The following steps were performed on the data:
 
 1 - download and extract from zip
@@ -27,5 +27,5 @@ A file alldata.txt is created at this point
 A file groupedmeans.txt is created at this point
 
 
-###Data description
+### Data description
 The included file namemapping.txt contains a mapping of original feature identifiers to column names. 
