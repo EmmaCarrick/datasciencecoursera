@@ -25,7 +25,7 @@ alltrain<- cbind(trainlabel, trainsubj, trainset)
 alldata <- rbind(alltest, alltrain)
 
 ##drop columns I dont want
-alldata <- select(alldata, -contains("min"), -contains("max"), -contains("Coeff"), -contains("mad"), -contains("sma"),  -contains("nergy"), -contains("iqr"), -contains("entropy"), -contains("correl"), -contains("skew"),-contains("urtos"),-contains("Freq"))
+alldata <- select(alldata,subject, label, contains("mean"), contains("std"))
 
 #get activity names and swap them out - to do:  change to a loop
 activity <- read.csv("./wearables/UCI HAR Dataset/activity_labels.txt", header = FALSE, sep="")
