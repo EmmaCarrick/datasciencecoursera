@@ -1,7 +1,7 @@
 
 # README
 
-This repository contains code for the Coursera/JHU data specialisation module "Getting and cleaning data".  This is for the course project.
+This repository contains code for the Coursera/JHU data specialisation module "Getting and cleaning data".  This is for the course project. Note that this script varies from the specification in that it downloads the raw data rather than assumes it already to be present.
 
 
 ### Content of the repo
