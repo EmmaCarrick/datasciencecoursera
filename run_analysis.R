@@ -47,6 +47,6 @@ write.csv(alldata, "./wearables/alldata.txt")
 #make a separate summary table inc writing out to file
 groupeddata<- alldata %>% group_by(activity, subject)
 groupeddata <- groupeddata %>% summarise_all(mean)
-write.csv(groupeddata, "./wearables/groupedmeans.txt")
+write.table(groupeddata, "./wearables/groupedmeans.txt", row.names = FALSE)
 groupeddata
 }
