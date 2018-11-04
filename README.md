@@ -4,7 +4,7 @@
 This repository contains code for the Coursera/JHU data specialisation module "Getting and cleaning data".  This is for the course project.
 
 
-###Content of the repo
+### Content of the repo
 
 run_analysis.R - the code to process the directed files.
 
@@ -16,7 +16,7 @@ readme.md - this file.
 
 codebook.md - a document descibing the data processing
 
-###Origin of data
+### Origin of data
 The description of the data is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
